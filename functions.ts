@@ -6,3 +6,7 @@
 function square(num: number){
     return num * num; 
 }
+
+function greet(person: string = "Default value") {
+    return "Hello " + person;
+}
